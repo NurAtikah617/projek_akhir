@@ -1,6 +1,7 @@
 <h1>Halaman Login</h1>
-<form action="">
 <?= $this->session->flashdata('message'); ?>
+<form action="<?= base_url() ?>login/verifikasi" method="POST">
+
 <input type="text" placeholder="username" name="username"><br><br>
 <input type="password" placeholder="password" name="password"><br><br>
 

@@ -1,4 +1,5 @@
-<h2> Edit Profil </h2>
+<div class="ep">
+<h2 class="h2"> Edit Profil </h2>
 
 <form action="<?= base_url() ?>profil/updateprofil" method="POST">
     <input type="hidden" name="id" value="<?= $user['id']?>"><br><br>
@@ -8,3 +9,4 @@
 
     <input type="submit" value="edit profil">
 </form>
+</div>

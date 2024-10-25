@@ -10,11 +10,11 @@
     <h1>PENDAFTARAN LOMBA</h1>
     <div class="tambah">
     <form action="<?= base_url() ?>tambah_daftar/tambah" method="POST">
+        <label for="">Jenis Lomba</label>
     <select name="namalomba">
-        <option value="">-- pilih jenis lomba --</option>
         <?php foreach ($jns_lomba as $jns) : ?>
             <option value="<?= $jns['id'] ?>"> <?= $jns ['namalomba'] ?></option>
-        <?php endforeach; ?>
+        <?php endforeach ; ?>
     </select>
     <br><br>
     <input placeholder="nama pendaftar" type="text" name="nama_pendaftar"><br><br>

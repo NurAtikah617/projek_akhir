@@ -1,0 +1,49 @@
+.ep{
+    margin-top: 8%;
+    margin-left: 35%;
+    height: auto;
+    width: 500px;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.h2{
+    text-align: center;
+    color: rgb(148, 203, 219);
+}
+
+.ep input[type=submit]{
+    margin-top: 1em;
+    padding: 8px 30px ;
+    border: none;
+    background-color: rgb(148, 203, 219);
+    color: white;
+    border-radius: 5px;
+    margin-left: 160px;
+    cursor: pointer;
+}
+
+.ep input[type=hidden]{
+    width: 95%;
+    padding: 5px 3px;
+    margin: 10px 5px;
+    border: 2px solid rgb(148, 203, 219);
+}
+
+.ep input[type=text]{
+    width: 95%;
+    border: 1px solid black;
+    padding: 5px 3px;
+    margin: 10px 5px;
+    border: 2px solid rgb(148, 203, 219);
+}
+
+.ep input[type=password]{
+    width: 95%;
+    border: 1px solid black;
+    padding: 5px 3px;
+    margin: 10px 5px;
+    border: 2px solid rgb(148, 203, 219);
+}

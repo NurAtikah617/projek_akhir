@@ -12,11 +12,11 @@
 				<td><?= $i; ?></td>
 				<td><?= $lmb['namalomba']?></td>
 				<td><?= $lmb['penyelenggara']?></td>
-				<td><a href="<?= base_url(); ?>data_event/edit/<?= $lmb['id']?>">edit</a></td>
-				<td><a onclick="return confirm('yakin hapus?')" href="<?= base_url(); ?>data_event/hapus/<?= $lmb['id']?>">hapus</a></td>
+				<td><a class="a-edit" href="<?= base_url(); ?>data_event/edit/<?= $lmb['id']?>">edit</a></td>
+				<td><a class="a-hapus" onclick="return confirm('yakin hapus?')" href="<?= base_url(); ?>data_event/hapus/<?= $lmb['id']?>">hapus</a></td>
 			</tr>
 			<?php $i++ ?>
 			<?php endforeach;?>
 </table>
 
-<a class="daftar" href="<?php echo base_url(); ?>tambah2">tambah data</a>
+<a class="adaftar" href="<?php echo base_url(); ?>tambah2">tambah data</a>

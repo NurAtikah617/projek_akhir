@@ -16,7 +16,7 @@ class Daftar_model extends CI_Model {
 	{
 		$data =
 	[
-			"nama_event" => $this->input->post('nama_event', true),
+			"id_lomba" => $this->input->post('id_lomba', true),
 			"nama_pendaftar" => $this->input->post('nama_pendaftar', true),
 			"kelas" => $this->input->post('kelas', true),
 			"no_hp" => $this->input->post('no_hp', true),

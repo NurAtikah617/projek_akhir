@@ -11,7 +11,7 @@
     <form action="<?= base_url() ?>admin/update" method="POST">
     <div class="tambah">
     <input placeholder="masukkan id" type="hidden" name="id" value="<?= $edit ['id']?>"><br><br>
-    <select name="jns_lomba">
+    <select class="edit2" name="jns_lomba">
         <option value="">pilih jenis lomba</option>
         <?php foreach( $jns_lomba as $jns ) : ?>
             <option value="<?= $jns['id']?>"><?= $jns['namalomba']?></option>

@@ -40,7 +40,7 @@ class Admin extends CI_Controller {
 		$data =
 		[
 			"id" => $this->input->post('id', true),
-			"nama_event" => $this->input->post('nama_event', true),
+			"id_lomba" => $this->input->post('id_lomba', true),
             "kelas" => $this->input->post('kelas', true),
             "no_hp" => $this->input->post('no_hp', true),
             "tgl_daftar" => $this->input->post('tgl_daftar', true)
